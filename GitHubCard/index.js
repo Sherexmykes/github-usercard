@@ -37,7 +37,14 @@ const followersArray = ['tetondan',
   'dustinmyers',
   'justsml',
   'luishrd',
-  'bigknell'];
+  'bigknell',
+  'scottmm374',
+  'Jalba784',
+  'rupol',
+'fractured2k',
+'tsimpson',
+'eblancas23'
+];
 
 /* Step 3: Create a function that accepts a single object as its only argument,
           Using DOM methods and properties, create a component that will return the following DOM element:
@@ -87,7 +94,7 @@ const createCard = (usersobj) => {
   const info = document.createElement("div");
     card.appendChild(picture);
     card.appendChild(info);
-    info.classList.add("card-iinfo");
+    info.classList.add("card-info");
 
   const names = document.createElement("h3");
   names.classList.add("name");
